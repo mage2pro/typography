@@ -35,9 +35,22 @@
                 showInStore='0'
             >
                 <label>Common</label>
+                <field
+                    id='enable'
+                    translate='label'
+                    type='select'
+                    sortOrder='1'
+                    showInDefault='1'
+                    showInWebsite='1'
+                    showInStore='1'
+                >
+                    <label>Enable?</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[]]></comment>
+                </field>
 				<field
 					id='fonts'
-					type='Df\Framework\Data\Form\Element\Font'
+                    type='Dfe\Typography\Config\Fonts'
 					translate='label'
 					sortOrder='2'
 					showInDefault='1'
@@ -46,8 +59,8 @@
 				>
 					<label>Fonts</label>
 					<comment><![CDATA[The fonts used in the store.]]></comment>
-                    <frontend_model>Dfe\Typography\Config\Fonts</frontend_model>
-                    <backend_model>Df\Config\Table\Backend</backend_model>
+               <!--     <backend_model>Df\Config\Table\Backend</backend_model>  -->
+                    <depends><field id='enable'>1</field></depends>
 				</field>
             </group>
         </section>
