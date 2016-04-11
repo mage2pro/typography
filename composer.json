@@ -1,5 +1,6 @@
 {
 	"name": "mage2pro/typography"
+	,"version": "1.0.0"
 	,"description": "The «Typography» extension."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/t/311"
