@@ -23,7 +23,7 @@
                 sortOrder='1'
                 showInDefault='1'
                 showInWebsite='1'
-                showInStore='0'
+                showInStore='1'
             >
                 <label>Common</label>
                 <field
