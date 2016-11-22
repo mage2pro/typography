@@ -50,7 +50,6 @@
 				>
 					<label>Fonts</label>
 					<comment><![CDATA[The fonts used in the store.]]></comment>
-               <!--     <backend_model>Df\Config\Table\Backend</backend_model>  -->
                     <depends><field id='enable'>1</field></depends>
 				</field>
             </group>
