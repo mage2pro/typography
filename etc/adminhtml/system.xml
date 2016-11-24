@@ -3,45 +3,45 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd"
 >
-    <system>
-        <section
-            id='dfe_typography'
-            translate='label'
-            type='text'
-            showInDefault='1'
-            showInWebsite='1'
-            showInStore='1'
-        >
-            <tab>_df</tab>
-            <label>Typography</label>
-            <class>separator-top</class>
-            <resource>Dfe_Typography::config</resource>
-            <group
-                id='common'
-                translate='label'
-                type='text'
-                sortOrder='1'
-                showInDefault='1'
-                showInWebsite='1'
-                showInStore='1'
-            >
-                <label>Common</label>
-                <field
-                    id='enable'
-                    translate='label'
-                    type='Df\Framework\Form\Element\Checkbox'
-                    sortOrder='1'
-                    showInDefault='1'
-                    showInWebsite='1'
-                    showInStore='1'
-                >
-                    <label>Enable?</label>
-                    <backend_model>Df\Config\Backend\Checkbox</backend_model>
-                    <comment><![CDATA[]]></comment>
-                </field>
+	<system>
+		<section
+			id='dfe_typography'
+			translate='label'
+			type='text'
+			showInDefault='1'
+			showInWebsite='1'
+			showInStore='1'
+		>
+			<tab>_df</tab>
+			<label>Typography</label>
+			<class>separator-top</class>
+			<resource>Dfe_Typography::config</resource>
+			<group
+				id='common'
+				translate='label'
+				type='text'
+				sortOrder='1'
+				showInDefault='1'
+				showInWebsite='1'
+				showInStore='1'
+			>
+				<label>Common</label>
+				<field
+					id='enable'
+					translate='label'
+					type='Df\Framework\Form\Element\Checkbox'
+					sortOrder='1'
+					showInDefault='1'
+					showInWebsite='1'
+					showInStore='1'
+				>
+					<label>Enable?</label>
+					<backend_model>Df\Config\Backend\Checkbox</backend_model>
+					<comment><![CDATA[]]></comment>
+				</field>
 				<field
 					id='fonts'
-                    type='Dfe\Typography\Config\Fonts'
+					type='Dfe\Typography\Config\Fonts'
 					translate='label'
 					sortOrder='2'
 					showInDefault='1'
@@ -50,9 +50,9 @@
 				>
 					<label>Fonts</label>
 					<comment><![CDATA[The fonts used in the store.]]></comment>
-                    <depends><field id='enable'>1</field></depends>
+					<depends><field id='enable'>1</field></depends>
 				</field>
-            </group>
-        </section>
-    </system>
+			</group>
+		</section>
+	</system>
 </config>
