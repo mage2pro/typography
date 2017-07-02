@@ -7,7 +7,6 @@
 		<section
 			id='dfe_typography'
 			translate='label'
-			type='text'
 			showInDefault='1'
 			showInWebsite='1'
 			showInStore='1'
@@ -19,7 +18,6 @@
 			<group
 				id='common'
 				translate='label'
-				type='text'
 				sortOrder='1'
 				showInDefault='1'
 				showInWebsite='1'
