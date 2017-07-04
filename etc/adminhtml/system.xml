@@ -6,10 +6,8 @@
 	<system>
 		<section
 			id='dfe_typography'
+			showInDefault='1' showInStore='1' showInWebsite='1'
 			translate='label'
-			showInDefault='1'
-			showInWebsite='1'
-			showInStore='1'
 		>
 			<tab>_df</tab>
 			<label>Typography</label>
@@ -17,21 +15,17 @@
 			<resource>Dfe_Typography::config</resource>
 			<group
 				id='common'
-				translate='label'
+				showInDefault='1' showInStore='1' showInWebsite='1'
 				sortOrder='1'
-				showInDefault='1'
-				showInWebsite='1'
-				showInStore='1'
+				translate='label'
 			>
 				<label>Common</label>
 				<field
 					id='enable'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='1'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
-					sortOrder='1'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
 				>
 					<label>Enable?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
@@ -39,12 +33,10 @@
 				</field>
 				<field
 					id='fonts'
-					type='Dfe\Typography\Config\Fonts'
-					translate='label'
+					showInDefault='1' showInStore='1' showInWebsite='1'
 					sortOrder='2'
-					showInDefault='1'
-					showInWebsite='1'
-					showInStore='1'
+					translate='label'
+					type='Dfe\Typography\Config\Fonts'
 				>
 					<label>Fonts</label>
 					<comment><![CDATA[The fonts used in the store.]]></comment>
