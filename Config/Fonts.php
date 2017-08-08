@@ -1,7 +1,8 @@
 <?php
 namespace Dfe\Typography\Config;
-use Df\Framework\Form\Element\Table;
-class Fonts extends Table {
+// 2015-12-16
+/** @final Unable to use the PHP «final» keyword here because of the M2 code generation. */
+class Fonts extends \Df\Framework\Form\Element\Table {
 	/**
 	 * 2015-12-16
 	 * @override
@@ -9,5 +10,5 @@ class Fonts extends Table {
 	 * @used-by \Df\Framework\Form\Element\Table::onFormInitialized()
 	 * @return string[]
 	 */
-	protected function columns() {return ['Column 1', 'Column 2', 'Column 3'];}
+	final protected function columns() {return ['Column 1', 'Column 2', 'Column 3'];}
 }
