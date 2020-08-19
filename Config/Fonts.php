@@ -1,6 +1,6 @@
 <?php
 namespace Dfe\Typography\Config;
-// 2015-12-16
+# 2015-12-16
 /** @final Unable to use the PHP «final» keyword here because of the M2 code generation. */
 class Fonts extends \Df\Framework\Form\Element\Table {
 	/**
