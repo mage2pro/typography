@@ -10,5 +10,5 @@ class Fonts extends \Df\Framework\Form\Element\Table {
 	 * @used-by \Df\Framework\Form\Element\Table::onFormInitialized()
 	 * @return string[]
 	 */
-	final protected function columns() {return ['Column 1', 'Column 2', 'Column 3'];}
+	final protected function columns():array {return ['Column 1', 'Column 2', 'Column 3'];}
 }
